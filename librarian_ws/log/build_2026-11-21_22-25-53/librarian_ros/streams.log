@@ -1,0 +1,65 @@
+[2.342s] Invoking command in '/home/vboxuser/librarian_ws/build/librarian_ros': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/librarian_ws/build/librarian_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vboxuser/librarian_ws/build/librarian_ros/build
+[3.225s] running develop
+[3.913s] Removing /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian-ros.egg-link (link to .)
+[3.996s] Invoked command in '/home/vboxuser/librarian_ws/build/librarian_ros' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/librarian_ws/build/librarian_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vboxuser/librarian_ws/build/librarian_ros/build
+[3.998s] Invoking command in '/home/vboxuser/librarian_ws/src/librarian_ros': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/librarian_ws/build/librarian_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/librarian_ros build --build-base /home/vboxuser/librarian_ws/build/librarian_ros/build install --record /home/vboxuser/librarian_ws/build/librarian_ros/install.log --install-scripts $base/lib/librarian_ros --single-version-externally-managed install_data --force
+[5.026s] running egg_info
+[5.117s] writing ../../build/librarian_ros/librarian_ros.egg-info/PKG-INFO
+[5.119s] writing dependency_links to ../../build/librarian_ros/librarian_ros.egg-info/dependency_links.txt
+[5.123s] writing entry points to ../../build/librarian_ros/librarian_ros.egg-info/entry_points.txt
+[5.127s] writing requirements to ../../build/librarian_ros/librarian_ros.egg-info/requires.txt
+[5.128s] writing top-level names to ../../build/librarian_ros/librarian_ros.egg-info/top_level.txt
+[5.347s] reading manifest file '../../build/librarian_ros/librarian_ros.egg-info/SOURCES.txt'
+[5.356s] writing manifest file '../../build/librarian_ros/librarian_ros.egg-info/SOURCES.txt'
+[5.359s] running build
+[5.361s] running build_py
+[5.362s] creating /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros
+[5.363s] copying librarian_ros/__init__.py -> /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros
+[5.366s] copying librarian_ros/grasp_geometry.py -> /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros
+[5.367s] copying librarian_ros/scene_poses.py -> /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros
+[5.368s] copying librarian_ros/perception_node.py -> /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros
+[5.369s] copying librarian_ros/moveit_client.py -> /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros
+[5.371s] copying librarian_ros/build_robot.py -> /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros
+[5.372s] copying librarian_ros/pick_node.py -> /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros
+[5.373s] running install
+[5.386s] running install_lib
+[5.495s] creating /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros
+[5.497s] copying /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros/__init__.py -> /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros
+[5.498s] copying /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros/grasp_geometry.py -> /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros
+[5.498s] copying /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros/scene_poses.py -> /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros
+[5.499s] copying /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros/perception_node.py -> /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros
+[5.501s] copying /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros/moveit_client.py -> /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros
+[5.502s] copying /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros/build_robot.py -> /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros
+[5.503s] copying /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros/pick_node.py -> /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros
+[5.505s] byte-compiling /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros/__init__.py to __init__.cpython-314.pyc
+[5.506s] byte-compiling /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros/grasp_geometry.py to grasp_geometry.cpython-314.pyc
+[5.515s] byte-compiling /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros/scene_poses.py to scene_poses.cpython-314.pyc
+[5.516s] byte-compiling /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros/perception_node.py to perception_node.cpython-314.pyc
+[5.519s] byte-compiling /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros/moveit_client.py to moveit_client.cpython-314.pyc
+[5.528s] byte-compiling /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros/build_robot.py to build_robot.cpython-314.pyc
+[5.534s] byte-compiling /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros/pick_node.py to pick_node.cpython-314.pyc
+[5.538s] running install_data
+[5.539s] copying resource/librarian_ros -> /home/vboxuser/librarian_ws/install/librarian_ros/share/ament_index/resource_index/packages
+[5.539s] copying package.xml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros
+[5.542s] copying launch/moveit.launch.py -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/launch
+[5.543s] copying launch/pick.launch.py -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/launch
+[5.544s] copying launch/sim.launch.py -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/launch
+[5.545s] copying urdf/librarian_base.urdf.xacro -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/urdf
+[5.547s] copying urdf/librarian_robot.urdf -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/urdf
+[5.550s] copying config/librarian.srdf -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+[5.551s] copying config/controllers.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+[5.558s] copying config/kinematics.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+[5.559s] copying config/moveit_controllers.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+[5.563s] copying config/robot_info.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+[5.566s] copying config/joint_limits.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+[5.568s] copying config/gripper_model.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+[5.569s] copying config/bridge.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+[5.573s] copying worlds/library.sdf.in -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/worlds
+[5.578s] running install_egg_info
+[5.664s] Copying ../../build/librarian_ros/librarian_ros.egg-info to /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros-0.1.0-py3.14.egg-info
+[5.681s] running install_scripts
+[6.100s] Installing build_robot script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros
+[6.105s] Installing perception_node script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros
+[6.108s] Installing pick_node script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros
+[6.108s] writing list of installed files to '/home/vboxuser/librarian_ws/build/librarian_ros/install.log'
+[6.186s] Invoked command in '/home/vboxuser/librarian_ws/src/librarian_ros' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/librarian_ws/build/librarian_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/librarian_ros build --build-base /home/vboxuser/librarian_ws/build/librarian_ros/build install --record /home/vboxuser/librarian_ws/build/librarian_ros/install.log --install-scripts $base/lib/librarian_ros --single-version-externally-managed install_data --force

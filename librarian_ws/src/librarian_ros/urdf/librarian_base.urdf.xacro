@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<!-- Мобільна база бібліотекаря: корпус, 4 колеса, щогла із зовнішньою камерою,
+     точка кріплення руки (arm_mount). Сама рука і захват додаються build_robot.py. -->
+<robot name="librarian_base" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <material name="grey"><color rgba="0.55 0.58 0.62 1"/></material>
+  <material name="dark"><color rgba="0.15 0.15 0.17 1"/></material>
+
+  <xacro:macro name="wheel" params="name x y">
+    <link name="${name}_wheel">
+      <visual>
+        <origin rpy="1.5708 0 0"/>
+        <geometry><cylinder radius="0.05" length="0.04"/></geometry>
+        <material name="dark"/>
+      </visual>
+      <collision>
+        <origin rpy="1.5708 0 0"/>
+        <geometry><cylinder radius="0.05" length="0.04"/></geometry>
+      </collision>
+      <inertial>
+        <mass value="0.8"/>
+        <inertia ixx="0.0006" iyy="0.001" izz="0.0006" ixy="0" ixz="0" iyz="0"/>
+      </inertial>
+    </link>
+    <joint name="${name}_wheel_joint" type="continuous">
+      <parent link="base_link"/>
+      <child link="${name}_wheel"/>
+      <origin xyz="${x} ${y} -0.07"/>
+      <axis xyz="0 1 0"/>
+    </joint>
+  </xacro:macro>
+
+  <!-- корпус: 0.50 x 0.40 x 0.20 м, низ на висоті 0.02 м від підлоги -->
+  <link name="base_footprint"/>
+  <joint name="footprint_to_base" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0.12"/>
+  </joint>
+  <link name="base_link">
+    <visual>
+      <geometry><box size="0.50 0.40 0.20"/></geometry>
+      <material name="grey"/>
+    </visual>
+    <collision>
+      <geometry><box size="0.50 0.40 0.20"/></geometry>
+    </collision>
+    <inertial>
+      <mass value="30"/>
+      <inertia ixx="0.5" iyy="0.7" izz="1.0" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <xacro:wheel name="fl" x="0.17"  y="0.22"/>
+  <xacro:wheel name="fr" x="0.17"  y="-0.22"/>
+  <xacro:wheel name="rl" x="-0.17" y="0.22"/>
+  <xacro:wheel name="rr" x="-0.17" y="-0.22"/>
+
+  <!-- точка кріплення руки: верх корпусу, трохи попереду центру -->
+  <link name="arm_mount">
+    <inertial>
+      <mass value="0.01"/>
+      <inertia ixx="1e-5" iyy="1e-5" izz="1e-5" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+  <joint name="base_to_arm_mount" type="fixed">
+    <parent link="base_link"/>
+    <child link="arm_mount"/>
+    <origin xyz="0.10 0 0.10"/>
+  </joint>
+
+  <!-- щогла з камерою збоку: рука в «готовій» позі не затуляє огляд -->
+  <link name="mast">
+    <visual>
+      <geometry><box size="0.04 0.04 0.52"/></geometry>
+      <material name="dark"/>
+    </visual>
+    <collision>
+      <geometry><box size="0.04 0.04 0.52"/></geometry>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <inertia ixx="0.02" iyy="0.02" izz="0.001" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+  <joint name="base_to_mast" type="fixed">
+    <parent link="base_link"/>
+    <child link="mast"/>
+    <origin xyz="0.20 0.17 0.36"/>
+  </joint>
+
+  <!-- Камера: вісь x вперед, z вгору (ROS body-конвенція).
+       Нахил 0.85 рад донизу, поворот -0.5 рад до центру столу. -->
+  <link name="ext_camera_link">
+    <visual>
+      <geometry><box size="0.03 0.09 0.03"/></geometry>
+      <material name="dark"/>
+    </visual>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="1e-4" iyy="1e-4" izz="1e-4" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+  <joint name="mast_to_ext_camera" type="fixed">
+    <parent link="mast"/>
+    <child link="ext_camera_link"/>
+    <origin xyz="0 0 0.27" rpy="0 0.85 -0.5"/>
+  </joint>
+
+  <!-- Оптична система камери (ROS-конвенція: z вперед, x вправо, y вниз) -->
+  <link name="ext_camera_optical"/>
+  <joint name="ext_camera_optical_joint" type="fixed">
+    <parent link="ext_camera_link"/>
+    <child link="ext_camera_optical"/>
+    <origin xyz="0 0 0" rpy="-1.5708 0 -1.5708"/>
+  </joint>
+
+  <!-- Сенсор Gazebo (gz sim). Топіки: ext_camera/image, ext_camera/depth_image, ext_camera/camera_info -->
+  <gazebo reference="ext_camera_link">
+    <sensor name="ext_camera" type="rgbd_camera">
+      <always_on>true</always_on>
+      <update_rate>10</update_rate>
+      <visualize>false</visualize>
+      <topic>ext_camera</topic>
+      <camera>
+        <horizontal_fov>1.2</horizontal_fov>
+        <image><width>320</width><height>240</height><format>R8G8B8</format></image>
+        <clip><near>0.1</near><far>3.0</far></clip>
+        <depth_camera><clip><near>0.1</near><far>3.0</far></clip></depth_camera>
+      </camera>
+    </sensor>
+  </gazebo>
+</robot>

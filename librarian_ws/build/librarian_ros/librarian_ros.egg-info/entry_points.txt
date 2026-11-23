@@ -1,0 +1,5 @@
+[console_scripts]
+arm_cli = librarian_ros.arm_cli:main
+build_robot = librarian_ros.build_robot:main
+perception_node = librarian_ros.perception_node:main
+pick_node = librarian_ros.pick_node:main

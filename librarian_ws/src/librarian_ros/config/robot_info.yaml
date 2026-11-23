@@ -1,0 +1,28 @@
+pick_node:
+  ros__parameters:
+    arm_group: arm
+    tcp_link: link_tcp
+    gripper_joint: drive_joint
+    gripper_open: 0.0
+    gripper_closed: 0.85
+    gripper_joints:
+    - drive_joint
+    - left_finger_joint
+    - left_inner_knuckle_joint
+    - right_outer_knuckle_joint
+    - right_finger_joint
+    - right_inner_knuckle_joint
+    gripper_multipliers:
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    gripper_offsets:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0

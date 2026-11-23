@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.003756] (librarian_ros) JobQueued: {'identifier': 'librarian_ros', 'dependencies': OrderedDict()}
+[0.008182] (librarian_ros) JobStarted: {'identifier': 'librarian_ros'}
+[0.096841] (-) TimerEvent: {}
+[0.200684] (-) TimerEvent: {}
+[0.301578] (-) TimerEvent: {}
+[0.402785] (-) TimerEvent: {}
+[0.504760] (-) TimerEvent: {}
+[0.605618] (-) TimerEvent: {}
+[0.706772] (-) TimerEvent: {}
+[0.808582] (-) TimerEvent: {}
+[0.909571] (-) TimerEvent: {}
+[1.011669] (-) TimerEvent: {}
+[1.112440] (-) TimerEvent: {}
+[1.213900] (-) TimerEvent: {}
+[1.319169] (-) TimerEvent: {}
+[1.420609] (-) TimerEvent: {}
+[1.521495] (-) TimerEvent: {}
+[1.622542] (-) TimerEvent: {}
+[1.723793] (-) TimerEvent: {}
+[1.829080] (-) TimerEvent: {}
+[1.931628] (-) TimerEvent: {}
+[2.034496] (-) TimerEvent: {}
+[2.135744] (-) TimerEvent: {}
+[2.240977] (-) TimerEvent: {}
+[2.342628] (-) TimerEvent: {}
+[2.446019] (-) TimerEvent: {}
+[2.551728] (-) TimerEvent: {}
+[2.656885] (-) TimerEvent: {}
+[2.759627] (-) TimerEvent: {}
+[2.862905] (-) TimerEvent: {}
+[2.964965] (-) TimerEvent: {}
+[3.066793] (-) TimerEvent: {}
+[3.168639] (-) TimerEvent: {}
+[3.273855] (-) TimerEvent: {}
+[3.375567] (-) TimerEvent: {}
+[3.477736] (-) TimerEvent: {}
+[3.584717] (-) TimerEvent: {}
+[3.686870] (-) TimerEvent: {}
+[3.791816] (-) TimerEvent: {}
+[3.893100] (-) TimerEvent: {}
+[3.995949] (-) TimerEvent: {}
+[4.097741] (-) TimerEvent: {}
+[4.207703] (-) TimerEvent: {}
+[4.308976] (-) TimerEvent: {}
+[4.410762] (-) TimerEvent: {}
+[4.511906] (-) TimerEvent: {}
+[4.616688] (-) TimerEvent: {}
+[4.721541] (-) TimerEvent: {}
+[4.823857] (-) TimerEvent: {}
+[4.924766] (-) TimerEvent: {}
+[5.038694] (-) TimerEvent: {}
+[5.150827] (-) TimerEvent: {}
+[5.252812] (-) TimerEvent: {}
+[5.353965] (-) TimerEvent: {}
+[5.457185] (-) TimerEvent: {}
+[5.559101] (-) TimerEvent: {}
+[5.664685] (-) TimerEvent: {}
+[5.772659] (-) TimerEvent: {}
+[5.883026] (-) TimerEvent: {}
+[5.984893] (-) TimerEvent: {}
+[6.085912] (-) TimerEvent: {}
+[6.187783] (-) TimerEvent: {}
+[6.290776] (-) TimerEvent: {}
+[6.391931] (-) TimerEvent: {}
+[6.493001] (-) TimerEvent: {}
+[6.595234] (-) TimerEvent: {}
+[6.701146] (-) TimerEvent: {}
+[6.803887] (-) TimerEvent: {}
+[6.909714] (-) TimerEvent: {}
+[6.974043] (librarian_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/vboxuser/librarian_ws/build/librarian_ros/build', '--no-deps', 'symlink_data'], 'cwd': '/home/vboxuser/librarian_ws/build/librarian_ros', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/lyrical/lib', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/4503-7-Robotics_TIME3876904', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/lyrical/share', 'USER': 'vboxuser', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/librarian_ws', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '4159', 'SYSTEMD_EXEC_PID': '4503', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11549', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/xarm_ws/install:/home/vboxuser/ros2_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'vboxuser', 'MANAGERPIDFDID': '810', 'JOURNAL_STREAM': '10:29791', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '26ae43e397ae4c6593ab996f7f2f96fe', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.33YMZ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/xarm_ws/install/xarm_description:/home/vboxuser/ros2_ws/install/my_py_pkg:/home/vboxuser/ros2_ws/install/my_cpp_pkg:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:669d8b23-d6c1-4633-a3c0-fd5d1ad7a0b7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/librarian_ws/build/librarian_ros', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/vboxuser/librarian_ws/build/librarian_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages:/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/vboxuser/xarm_ws/install/xarm_description:/home/vboxuser/ros2_ws/install/my_cpp_pkg:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor'}), 'shell': False}
+[7.010607] (-) TimerEvent: {}
+[7.114014] (-) TimerEvent: {}
+[7.215654] (-) TimerEvent: {}
+[7.316435] (-) TimerEvent: {}
+[7.417671] (-) TimerEvent: {}
+[7.518811] (-) TimerEvent: {}
+[7.620519] (-) TimerEvent: {}
+[7.721488] (-) TimerEvent: {}
+[7.822671] (-) TimerEvent: {}
+[7.925127] (-) TimerEvent: {}
+[8.026631] (-) TimerEvent: {}
+[8.129918] (-) TimerEvent: {}
+[8.232681] (-) TimerEvent: {}
+[8.334624] (-) TimerEvent: {}
+[8.435656] (-) TimerEvent: {}
+[8.536842] (-) TimerEvent: {}
+[8.643221] (-) TimerEvent: {}
+[8.744158] (-) TimerEvent: {}
+[8.846163] (-) TimerEvent: {}
+[8.948641] (-) TimerEvent: {}
+[9.050580] (-) TimerEvent: {}
+[9.057867] (librarian_ros) StdoutLine: {'line': b'running develop\n'}
+[9.152014] (-) TimerEvent: {}
+[9.253517] (-) TimerEvent: {}
+[9.359077] (-) TimerEvent: {}
+[9.460561] (-) TimerEvent: {}
+[9.561713] (-) TimerEvent: {}
+[9.662716] (-) TimerEvent: {}
+[9.770772] (-) TimerEvent: {}
+[9.871857] (-) TimerEvent: {}
+[9.978141] (-) TimerEvent: {}
+[10.081760] (-) TimerEvent: {}
+[10.185963] (-) TimerEvent: {}
+[10.288770] (-) TimerEvent: {}
+[10.394663] (-) TimerEvent: {}
+[10.496668] (-) TimerEvent: {}
+[10.597692] (-) TimerEvent: {}
+[10.697961] (librarian_ros) StdoutLine: {'line': b'running egg_info\n'}
+[10.700740] (-) TimerEvent: {}
+[10.801755] (-) TimerEvent: {}
+[10.843152] (librarian_ros) StdoutLine: {'line': b'writing librarian_ros.egg-info/PKG-INFO\n'}
+[10.846930] (librarian_ros) StdoutLine: {'line': b'writing dependency_links to librarian_ros.egg-info/dependency_links.txt\n'}
+[10.851570] (librarian_ros) StdoutLine: {'line': b'writing entry points to librarian_ros.egg-info/entry_points.txt\n'}
+[10.852200] (librarian_ros) StdoutLine: {'line': b'writing requirements to librarian_ros.egg-info/requires.txt\n'}
+[10.855230] (librarian_ros) StdoutLine: {'line': b'writing top-level names to librarian_ros.egg-info/top_level.txt\n'}
+[10.906767] (-) TimerEvent: {}
+[11.007935] (-) TimerEvent: {}
+[11.109237] (-) TimerEvent: {}
+[11.210879] (-) TimerEvent: {}
+[11.240804] (librarian_ros) StdoutLine: {'line': b"reading manifest file 'librarian_ros.egg-info/SOURCES.txt'\n"}
+[11.262096] (librarian_ros) StdoutLine: {'line': b"writing manifest file 'librarian_ros.egg-info/SOURCES.txt'\n"}
+[11.311807] (-) TimerEvent: {}
+[11.416742] (-) TimerEvent: {}
+[11.421518] (librarian_ros) StdoutLine: {'line': b'running build_ext\n'}
+[11.425686] (librarian_ros) StdoutLine: {'line': b'Creating /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian-ros.egg-link (link to .)\n'}
+[11.435642] (librarian_ros) StdoutLine: {'line': b'Installing arm_cli script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros\n'}
+[11.436121] (librarian_ros) StdoutLine: {'line': b'Installing build_robot script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros\n'}
+[11.440777] (librarian_ros) StdoutLine: {'line': b'Installing perception_node script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros\n'}
+[11.444703] (librarian_ros) StdoutLine: {'line': b'Installing pick_node script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros\n'}
+[11.445840] (librarian_ros) StdoutLine: {'line': b'\n'}
+[11.449972] (librarian_ros) StdoutLine: {'line': b'Installed /home/vboxuser/librarian_ws/build/librarian_ros\n'}
+[11.450928] (librarian_ros) StdoutLine: {'line': b'running symlink_data\n'}
+[11.517535] (-) TimerEvent: {}
+[11.618588] (-) TimerEvent: {}
+[11.718584] (librarian_ros) CommandEnded: {'returncode': 0}
+[11.724024] (-) TimerEvent: {}
+[11.810112] (librarian_ros) JobEnded: {'identifier': 'librarian_ros', 'rc': 0}
+[11.817121] (-) EventReactorShutdown: {}

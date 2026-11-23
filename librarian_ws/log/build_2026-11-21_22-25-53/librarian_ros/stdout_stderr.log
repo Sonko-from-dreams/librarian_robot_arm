@@ -1,0 +1,61 @@
+running develop
+Removing /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian-ros.egg-link (link to .)
+running egg_info
+writing ../../build/librarian_ros/librarian_ros.egg-info/PKG-INFO
+writing dependency_links to ../../build/librarian_ros/librarian_ros.egg-info/dependency_links.txt
+writing entry points to ../../build/librarian_ros/librarian_ros.egg-info/entry_points.txt
+writing requirements to ../../build/librarian_ros/librarian_ros.egg-info/requires.txt
+writing top-level names to ../../build/librarian_ros/librarian_ros.egg-info/top_level.txt
+reading manifest file '../../build/librarian_ros/librarian_ros.egg-info/SOURCES.txt'
+writing manifest file '../../build/librarian_ros/librarian_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros
+copying librarian_ros/__init__.py -> /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros
+copying librarian_ros/grasp_geometry.py -> /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros
+copying librarian_ros/scene_poses.py -> /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros
+copying librarian_ros/perception_node.py -> /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros
+copying librarian_ros/moveit_client.py -> /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros
+copying librarian_ros/build_robot.py -> /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros
+copying librarian_ros/pick_node.py -> /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros
+running install
+running install_lib
+creating /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros
+copying /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros/__init__.py -> /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros
+copying /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros/grasp_geometry.py -> /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros
+copying /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros/scene_poses.py -> /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros
+copying /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros/perception_node.py -> /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros
+copying /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros/moveit_client.py -> /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros
+copying /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros/build_robot.py -> /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros
+copying /home/vboxuser/librarian_ws/build/librarian_ros/build/lib/librarian_ros/pick_node.py -> /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros
+byte-compiling /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros/__init__.py to __init__.cpython-314.pyc
+byte-compiling /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros/grasp_geometry.py to grasp_geometry.cpython-314.pyc
+byte-compiling /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros/scene_poses.py to scene_poses.cpython-314.pyc
+byte-compiling /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros/perception_node.py to perception_node.cpython-314.pyc
+byte-compiling /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros/moveit_client.py to moveit_client.cpython-314.pyc
+byte-compiling /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros/build_robot.py to build_robot.cpython-314.pyc
+byte-compiling /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros/pick_node.py to pick_node.cpython-314.pyc
+running install_data
+copying resource/librarian_ros -> /home/vboxuser/librarian_ws/install/librarian_ros/share/ament_index/resource_index/packages
+copying package.xml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros
+copying launch/moveit.launch.py -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/launch
+copying launch/pick.launch.py -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/launch
+copying launch/sim.launch.py -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/launch
+copying urdf/librarian_base.urdf.xacro -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/urdf
+copying urdf/librarian_robot.urdf -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/urdf
+copying config/librarian.srdf -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+copying config/controllers.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+copying config/kinematics.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+copying config/moveit_controllers.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+copying config/robot_info.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+copying config/joint_limits.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+copying config/gripper_model.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+copying config/bridge.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+copying worlds/library.sdf.in -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/worlds
+running install_egg_info
+Copying ../../build/librarian_ros/librarian_ros.egg-info to /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros-0.1.0-py3.14.egg-info
+running install_scripts
+Installing build_robot script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros
+Installing perception_node script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros
+Installing pick_node script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros
+writing list of installed files to '/home/vboxuser/librarian_ws/build/librarian_ros/install.log'

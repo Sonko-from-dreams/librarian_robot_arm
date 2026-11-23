@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing librarian_ros.egg-info/PKG-INFO
+writing dependency_links to librarian_ros.egg-info/dependency_links.txt
+writing entry points to librarian_ros.egg-info/entry_points.txt
+writing requirements to librarian_ros.egg-info/requires.txt
+writing top-level names to librarian_ros.egg-info/top_level.txt
+reading manifest file 'librarian_ros.egg-info/SOURCES.txt'
+writing manifest file 'librarian_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian-ros.egg-link (link to .)
+Installing build_robot script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros
+Installing perception_node script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros
+Installing pick_node script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros
+
+Installed /home/vboxuser/librarian_ws/build/librarian_ros
+running symlink_data

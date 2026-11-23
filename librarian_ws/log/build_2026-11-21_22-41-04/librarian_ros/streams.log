@@ -1,0 +1,31 @@
+[2.972s] Invoking command in '/home/vboxuser/librarian_ws/src/librarian_ros': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/librarian_ws/build/librarian_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/librarian_ros build --build-base /home/vboxuser/librarian_ws/build/librarian_ros/build install --record /home/vboxuser/librarian_ws/build/librarian_ros/install.log --install-scripts $base/lib/librarian_ros --single-version-externally-managed install_data
+[4.114s] running egg_info
+[4.219s] writing ../../build/librarian_ros/librarian_ros.egg-info/PKG-INFO
+[4.219s] writing dependency_links to ../../build/librarian_ros/librarian_ros.egg-info/dependency_links.txt
+[4.222s] writing entry points to ../../build/librarian_ros/librarian_ros.egg-info/entry_points.txt
+[4.223s] writing requirements to ../../build/librarian_ros/librarian_ros.egg-info/requires.txt
+[4.224s] writing top-level names to ../../build/librarian_ros/librarian_ros.egg-info/top_level.txt
+[4.407s] reading manifest file '../../build/librarian_ros/librarian_ros.egg-info/SOURCES.txt'
+[4.412s] writing manifest file '../../build/librarian_ros/librarian_ros.egg-info/SOURCES.txt'
+[4.414s] running build
+[4.414s] running build_py
+[4.416s] running install
+[4.425s] running install_lib
+[4.510s] running install_data
+[4.514s] copying urdf/librarian_robot.urdf -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/urdf
+[4.515s] copying config/librarian.srdf -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+[4.516s] copying config/controllers.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+[4.519s] copying config/kinematics.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+[4.524s] copying config/moveit_controllers.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+[4.525s] copying config/robot_info.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+[4.525s] copying config/joint_limits.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+[4.526s] copying config/gripper_model.yaml -> /home/vboxuser/librarian_ws/install/librarian_ros/share/librarian_ros/config
+[4.527s] running install_egg_info
+[4.641s] removing '/home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros-0.1.0-py3.14.egg-info' (and everything under it)
+[4.643s] Copying ../../build/librarian_ros/librarian_ros.egg-info to /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian_ros-0.1.0-py3.14.egg-info
+[4.657s] running install_scripts
+[5.114s] Installing build_robot script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros
+[5.115s] Installing perception_node script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros
+[5.115s] Installing pick_node script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros
+[5.116s] writing list of installed files to '/home/vboxuser/librarian_ws/build/librarian_ros/install.log'
+[5.212s] Invoked command in '/home/vboxuser/librarian_ws/src/librarian_ros' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/librarian_ws/build/librarian_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/librarian_ros build --build-base /home/vboxuser/librarian_ws/build/librarian_ros/build install --record /home/vboxuser/librarian_ws/build/librarian_ros/install.log --install-scripts $base/lib/librarian_ros --single-version-externally-managed install_data

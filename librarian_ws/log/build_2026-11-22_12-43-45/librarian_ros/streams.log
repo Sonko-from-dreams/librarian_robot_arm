@@ -1,0 +1,19 @@
+[4.536s] Invoking command in '/home/vboxuser/librarian_ws/build/librarian_ros': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/librarian_ws/build/librarian_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vboxuser/librarian_ws/build/librarian_ros/build --no-deps symlink_data
+[5.881s] running develop
+[6.691s] running egg_info
+[6.788s] writing librarian_ros.egg-info/PKG-INFO
+[6.790s] writing dependency_links to librarian_ros.egg-info/dependency_links.txt
+[6.791s] writing entry points to librarian_ros.egg-info/entry_points.txt
+[6.791s] writing requirements to librarian_ros.egg-info/requires.txt
+[6.792s] writing top-level names to librarian_ros.egg-info/top_level.txt
+[6.972s] reading manifest file 'librarian_ros.egg-info/SOURCES.txt'
+[6.977s] writing manifest file 'librarian_ros.egg-info/SOURCES.txt'
+[7.073s] running build_ext
+[7.074s] Creating /home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages/librarian-ros.egg-link (link to .)
+[7.078s] Installing build_robot script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros
+[7.079s] Installing perception_node script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros
+[7.080s] Installing pick_node script to /home/vboxuser/librarian_ws/install/librarian_ros/lib/librarian_ros
+[7.083s] 
+[7.084s] Installed /home/vboxuser/librarian_ws/build/librarian_ros
+[7.085s] running symlink_data
+[7.198s] Invoked command in '/home/vboxuser/librarian_ws/build/librarian_ros' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/librarian_ws/build/librarian_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/librarian_ws/install/librarian_ros/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vboxuser/librarian_ws/build/librarian_ros/build --no-deps symlink_data

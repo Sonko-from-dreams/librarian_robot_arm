@@ -1,0 +1,492 @@
+[0.000000] (-) TimerEvent: {}
+[0.002365] (-) JobUnselected: {'identifier': 'd435i_xarm_setup'}
+[0.002736] (-) JobUnselected: {'identifier': 'mbot_demo'}
+[0.002790] (-) JobUnselected: {'identifier': 'realsense_gazebo_plugin'}
+[0.003300] (-) JobUnselected: {'identifier': 'uf_ros_lib'}
+[0.003500] (-) JobUnselected: {'identifier': 'xarm_api'}
+[0.003627] (-) JobUnselected: {'identifier': 'xarm_controller'}
+[0.003762] (-) JobUnselected: {'identifier': 'xarm_gazebo'}
+[0.004776] (-) JobUnselected: {'identifier': 'xarm_moveit_config'}
+[0.004823] (-) JobUnselected: {'identifier': 'xarm_moveit_servo'}
+[0.005277] (-) JobUnselected: {'identifier': 'xarm_msgs'}
+[0.005393] (-) JobUnselected: {'identifier': 'xarm_planner'}
+[0.005682] (-) JobUnselected: {'identifier': 'xarm_sdk'}
+[0.005813] (xarm_description) JobQueued: {'identifier': 'xarm_description', 'dependencies': OrderedDict()}
+[0.005851] (xarm_description) JobStarted: {'identifier': 'xarm_description'}
+[0.055958] (xarm_description) JobProgress: {'identifier': 'xarm_description', 'progress': 'cmake'}
+[0.057995] (xarm_description) Command: {'cmd': ['/usr/bin/cmake', '/home/vboxuser/xarm_ws/src/xarm_ros2/xarm_description', '-DCMAKE_INSTALL_PREFIX=/home/vboxuser/xarm_ws/install/xarm_description'], 'cwd': '/home/vboxuser/xarm_ws/build/xarm_description', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/vboxuser/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/280/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/vboxuser', 'CHROME_DESKTOP': 'code_code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/vboxuser/xarm_ws/src', 'TERM_PROGRAM_VERSION': '1.146.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/280/usr/lib/x86_64-linux-gnu/gtk-3.0', 'IM_CONFIG_ENTRY': 'profile', 'GTK_IM_MODULE_FILE': '/home/vboxuser/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/280/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/280/usr/share/code/code', 'MANAGERPID': '4179', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '4536', 'BUNDLED_DEBUGPY_PATH': '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6846', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/xarm_ws/install:/home/vboxuser/ros2_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'vboxuser', 'MANAGERPIDFDID': '21126', 'JOURNAL_STREAM': '10:29770', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'GTK_EXE_PREFIX': '/snap/code/280/usr', 'INVOCATION_ID': 'a760b844fe48487f890632d33ca28fcf', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/280/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-998252d4acbf1d85.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/vboxuser/.config/Code/User/workspaceStorage/3c845e9fa93010f3f947d10ec3210de6/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NUEYY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e14f6c6fc5.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/vboxuser/snap/code/280/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/vboxuser/ros2_ws/install/my_py_pkg:/home/vboxuser/ros2_ws/install/my_cpp_pkg:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/xarm_ws/build/xarm_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/vboxuser/snap/code/280/.local/share:/home/vboxuser/snap/code/280:/snap/code/280/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/vboxuser/ros2_ws/install/my_cpp_pkg:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/lyrical'}), 'shell': False}
+[0.108655] (-) TimerEvent: {}
+[0.211912] (-) TimerEvent: {}
+[0.302168] (xarm_description) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.303200] (xarm_description) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.303347] (xarm_description) StderrLine: {'line': b'  CMake.\n'}
+[0.304134] (xarm_description) StderrLine: {'line': b'\n'}
+[0.304289] (xarm_description) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.304376] (xarm_description) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.304452] (xarm_description) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.304531] (xarm_description) StderrLine: {'line': b'\n'}
+[0.304639] (xarm_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.314309] (-) TimerEvent: {}
+[0.416151] (-) TimerEvent: {}
+[0.520810] (-) TimerEvent: {}
+[0.623149] (-) TimerEvent: {}
+[0.724265] (-) TimerEvent: {}
+[0.829505] (-) TimerEvent: {}
+[0.859857] (xarm_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 15.2.0\n'}
+[0.929900] (-) TimerEvent: {}
+[1.034533] (-) TimerEvent: {}
+[1.162346] (-) TimerEvent: {}
+[1.263250] (-) TimerEvent: {}
+[1.318492] (xarm_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 15.2.0\n'}
+[1.375891] (xarm_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.376232] (-) TimerEvent: {}
+[1.476723] (-) TimerEvent: {}
+[1.577442] (-) TimerEvent: {}
+[1.656347] (xarm_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.682211] (-) TimerEvent: {}
+[1.695824] (xarm_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.710493] (xarm_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.711904] (xarm_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.785592] (-) TimerEvent: {}
+[1.803508] (xarm_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.886168] (-) TimerEvent: {}
+[1.987293] (-) TimerEvent: {}
+[2.063423] (xarm_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.087589] (-) TimerEvent: {}
+[2.113517] (xarm_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.113776] (xarm_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.121910] (xarm_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.188734] (-) TimerEvent: {}
+[2.254085] (xarm_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[2.288975] (-) TimerEvent: {}
+[2.408364] (-) TimerEvent: {}
+[2.509655] (-) TimerEvent: {}
+[2.610336] (-) TimerEvent: {}
+[2.712718] (-) TimerEvent: {}
+[2.816240] (-) TimerEvent: {}
+[2.917428] (-) TimerEvent: {}
+[3.024445] (-) TimerEvent: {}
+[3.125553] (-) TimerEvent: {}
+[3.226723] (-) TimerEvent: {}
+[3.273388] (xarm_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)\n'}
+[3.354592] (-) TimerEvent: {}
+[3.456501] (-) TimerEvent: {}
+[3.572429] (-) TimerEvent: {}
+[3.673607] (-) TimerEvent: {}
+[3.760171] (xarm_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.773827] (-) TimerEvent: {}
+[3.889230] (-) TimerEvent: {}
+[3.891126] (xarm_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.891330] (xarm_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[3.909452] (xarm_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.925778] (xarm_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.990329] (-) TimerEvent: {}
+[4.005705] (xarm_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.018004] (xarm_description) StdoutLine: {'line': b'-- Configuring done (3.7s)\n'}
+[4.035332] (xarm_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.041236] (xarm_description) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/xarm_ws/build/xarm_description\n'}
+[4.057723] (xarm_description) CommandEnded: {'returncode': 0}
+[4.058263] (xarm_description) JobProgress: {'identifier': 'xarm_description', 'progress': 'build'}
+[4.058667] (xarm_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/xarm_ws/build/xarm_description', '--', '-j6', '-l6'], 'cwd': '/home/vboxuser/xarm_ws/build/xarm_description', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/vboxuser/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/280/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/vboxuser', 'CHROME_DESKTOP': 'code_code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/vboxuser/xarm_ws/src', 'TERM_PROGRAM_VERSION': '1.146.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/280/usr/lib/x86_64-linux-gnu/gtk-3.0', 'IM_CONFIG_ENTRY': 'profile', 'GTK_IM_MODULE_FILE': '/home/vboxuser/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/280/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/280/usr/share/code/code', 'MANAGERPID': '4179', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '4536', 'BUNDLED_DEBUGPY_PATH': '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6846', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/xarm_ws/install:/home/vboxuser/ros2_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'vboxuser', 'MANAGERPIDFDID': '21126', 'JOURNAL_STREAM': '10:29770', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'GTK_EXE_PREFIX': '/snap/code/280/usr', 'INVOCATION_ID': 'a760b844fe48487f890632d33ca28fcf', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/280/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-998252d4acbf1d85.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/vboxuser/.config/Code/User/workspaceStorage/3c845e9fa93010f3f947d10ec3210de6/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NUEYY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e14f6c6fc5.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/vboxuser/snap/code/280/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/vboxuser/ros2_ws/install/my_py_pkg:/home/vboxuser/ros2_ws/install/my_cpp_pkg:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/xarm_ws/build/xarm_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/vboxuser/snap/code/280/.local/share:/home/vboxuser/snap/code/280:/snap/code/280/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/vboxuser/ros2_ws/install/my_cpp_pkg:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/lyrical'}), 'shell': False}
+[4.091396] (-) TimerEvent: {}
+[4.184419] (xarm_description) CommandEnded: {'returncode': 0}
+[4.185415] (xarm_description) JobProgress: {'identifier': 'xarm_description', 'progress': 'install'}
+[4.196215] (-) TimerEvent: {}
+[4.207173] (xarm_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/xarm_ws/build/xarm_description'], 'cwd': '/home/vboxuser/xarm_ws/build/xarm_description', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/vboxuser/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/280/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/vboxuser', 'CHROME_DESKTOP': 'code_code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/vboxuser/xarm_ws/src', 'TERM_PROGRAM_VERSION': '1.146.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/280/usr/lib/x86_64-linux-gnu/gtk-3.0', 'IM_CONFIG_ENTRY': 'profile', 'GTK_IM_MODULE_FILE': '/home/vboxuser/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/280/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/280/usr/share/code/code', 'MANAGERPID': '4179', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '4536', 'BUNDLED_DEBUGPY_PATH': '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6846', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/xarm_ws/install:/home/vboxuser/ros2_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'vboxuser', 'MANAGERPIDFDID': '21126', 'JOURNAL_STREAM': '10:29770', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'GTK_EXE_PREFIX': '/snap/code/280/usr', 'INVOCATION_ID': 'a760b844fe48487f890632d33ca28fcf', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/280/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-998252d4acbf1d85.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/vboxuser/.config/Code/User/workspaceStorage/3c845e9fa93010f3f947d10ec3210de6/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NUEYY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e14f6c6fc5.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/vboxuser/snap/code/280/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/vboxuser/ros2_ws/install/my_py_pkg:/home/vboxuser/ros2_ws/install/my_cpp_pkg:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/xarm_ws/build/xarm_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/vboxuser/snap/code/280/.local/share:/home/vboxuser/snap/code/280:/snap/code/280/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/vboxuser/ros2_ws/install/my_cpp_pkg:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/lyrical'}), 'shell': False}
+[4.227768] (xarm_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.228342] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//rviz\n'}
+[4.228849] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//rviz/display.rviz\n'}
+[4.229076] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf\n'}
+[4.232249] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/common\n'}
+[4.234143] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/common/common.link.xacro\n'}
+[4.234268] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/common/common.gazebo.xacro\n'}
+[4.234369] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/common/common.material.xacro\n'}
+[4.234699] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/other\n'}
+[4.235019] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/other/other_geometry.urdf.xacro\n'}
+[4.235116] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper\n'}
+[4.235222] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/lite_vacuum_gripper.urdf.xacro\n'}
+[4.236489] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/vacuum_gripper_macro.xacro\n'}
+[4.236610] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/vacuum_gripper.urdf.xacro\n'}
+[4.236691] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/xarm_vacuum_gripper.urdf.xacro\n'}
+[4.236772] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/_private_macro.xacro\n'}
+[4.236898] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm_device.urdf.xacro\n'}
+[4.239548] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/dual_xarm_device.urdf.xacro\n'}
+[4.239802] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm7\n'}
+[4.239996] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7.transmission.xacro\n'}
+[4.240143] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7.gazebo.xacro\n'}
+[4.241023] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7_robot_macro.xacro\n'}
+[4.242602] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7.ros2_control.xacro\n'}
+[4.249449] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7.urdf.xacro\n'}
+[4.249653] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm7_mirror\n'}
+[4.249842] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror.transmission.xacro\n'}
+[4.250478] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror.urdf.xacro\n'}
+[4.250672] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror_robot_macro.xacro\n'}
+[4.251031] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror.ros2_control.xacro\n'}
+[4.252645] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror.gazebo.xacro\n'}
+[4.262252] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/uf850\n'}
+[4.269832] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/uf850/uf850_robot_macro.xacro\n'}
+[4.290104] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/uf850/uf850.gazebo.xacro\n'}
+[4.294369] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/uf850/uf850.transmission.xacro\n'}
+[4.299162] (-) TimerEvent: {}
+[4.302857] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/uf850/uf850.urdf.xacro\n'}
+[4.306440] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/uf850/uf850.ros2_control.xacro\n'}
+[4.306572] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/camera\n'}
+[4.306657] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/camera/camera.gazebo.xacro\n'}
+[4.306749] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/camera/realsense_d435i.urdf.xacro\n'}
+[4.306886] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/camera/realsense.gazebo.xacro\n'}
+[4.306972] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm6\n'}
+[4.310393] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6.ros2_control.xacro\n'}
+[4.310509] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6.urdf.xacro\n'}
+[4.310601] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6_robot_macro.xacro\n'}
+[4.310678] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6.transmission.xacro\n'}
+[4.310782] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6.gazebo.xacro\n'}
+[4.310860] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm5\n'}
+[4.310933] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5.transmission.xacro\n'}
+[4.311002] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5.ros2_control.xacro\n'}
+[4.311071] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5.urdf.xacro\n'}
+[4.312492] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5.gazebo.xacro\n'}
+[4.312625] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5_robot_macro.xacro\n'}
+[4.312761] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/xarm_device_macro.xacro\n'}
+[4.312892] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/lite6\n'}
+[4.312986] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/lite6/lite6.urdf.xacro\n'}
+[4.313135] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/lite6/lite6.transmission.xacro\n'}
+[4.313237] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/lite6/lite6_robot_macro.xacro\n'}
+[4.314503] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/lite6/lite6.ros2_control.xacro\n'}
+[4.314720] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/lite6/lite6.gazebo.xacro\n'}
+[4.314856] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper\n'}
+[4.314947] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/uflite_gripper.urdf.xacro\n'}
+[4.315072] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper.urdf.xacro\n'}
+[4.315153] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/uflite_gripper.ros2_control.xacro\n'}
+[4.315226] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper_macro.xacro\n'}
+[4.316660] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.ros2_control.xacro\n'}
+[4.316776] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper.transmission.xacro\n'}
+[4.316857] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.urdf.xacro\n'}
+[4.316959] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.transmission.xacro\n'}
+[4.317072] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/gripper.urdf.xacro\n'}
+[4.318461] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/uflite_gripper_macro.xacro\n'}
+[4.318604] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.gazebo.xacro\n'}
+[4.318692] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper.ros2_control.xacro\n'}
+[4.318768] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper.gazebo.xacro\n'}
+[4.318846] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper_macro.xacro\n'}
+[4.318938] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/gripper_macro.xacro\n'}
+[4.319028] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/uflite_gripper.gazebo.xacro\n'}
+[4.319192] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//urdf/gripper/uflite_gripper.transmission.xacro\n'}
+[4.320431] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config\n'}
+[4.320552] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial\n'}
+[4.323942] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm5_type5_HT_BR2.yaml\n'}
+[4.325070] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type9_HT_BR2.yaml\n'}
+[4.325284] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type3_YT_SP.yaml\n'}
+[4.325479] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm5_type5_UJ_BR_2403.yaml\n'}
+[4.327814] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type11_HT_LD.yaml\n'}
+[4.328480] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type12_HT_LDBR2.yaml\n'}
+[4.328810] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type13_HT_BR2.yaml\n'}
+[4.337368] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type7_UJ_BR_2403.yaml\n'}
+[4.337698] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_UJ_BR_2403.yaml\n'}
+[4.337901] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type7_HT_BR.yaml\n'}
+[4.338088] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type7_HT_LD.yaml\n'}
+[4.339794] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm5_type5_HT_LD.yaml\n'}
+[4.339937] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_BR.yaml\n'}
+[4.340057] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type7_HT_BR2.yaml\n'}
+[4.340423] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/gen_link_inertial_params.py\n'}
+[4.340553] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type8_HT2_BR2.yaml\n'}
+[4.340646] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm5_type5_HT_BR.yaml\n'}
+[4.340746] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_LD.yaml\n'}
+[4.341208] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_BR2.yaml\n'}
+[4.341645] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT2_LD.yaml\n'}
+[4.342203] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/xarm7\n'}
+[4.342344] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/xarm7/joint_limits.yaml\n'}
+[4.342437] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/xarm7/joint_limits_1305.yaml\n'}
+[4.342526] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/uf850\n'}
+[4.342603] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/uf850/joint_limits.yaml\n'}
+[4.342678] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/xarm6\n'}
+[4.342803] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/xarm6/joint_limits.yaml\n'}
+[4.342882] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/xarm6/joint_limits_1305.yaml\n'}
+[4.342973] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/xarm5\n'}
+[4.343343] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/xarm5/joint_limits.yaml\n'}
+[4.343489] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/xarm5/joint_limits_1305.yaml\n'}
+[4.343768] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/lite6\n'}
+[4.343899] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/lite6/joint_limits.yaml\n'}
+[4.344217] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/kinematics\n'}
+[4.344313] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/kinematics/gen_kinematics_params.py\n'}
+[4.344390] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/kinematics/default\n'}
+[4.344463] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/kinematics/default/xarm7_default_kinematics.yaml\n'}
+[4.344535] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/kinematics/default/uf850_default_kinematics.yaml\n'}
+[4.345099] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/kinematics/default/xarm7_mirror_default_kinematics.yaml\n'}
+[4.345220] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/kinematics/default/xarm5_default_kinematics.yaml\n'}
+[4.345416] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/kinematics/default/lite6_default_kinematics.yaml\n'}
+[4.345769] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//config/kinematics/default/xarm6_default_kinematics.yaml\n'}
+[4.345864] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes\n'}
+[4.346162] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/end_tool\n'}
+[4.346276] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/end_tool/collision\n'}
+[4.346360] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/end_tool/collision/end_tool_1300.stl\n'}
+[4.346608] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/end_tool/collision/end_tool.stl\n'}
+[4.346725] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/end_tool/visual\n'}
+[4.347200] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/end_tool/visual/end_tool_1300.stl\n'}
+[4.347306] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305\n'}
+[4.347398] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision\n'}
+[4.347473] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link5.obj\n'}
+[4.349123] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link2.obj\n'}
+[4.349351] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link_base.obj\n'}
+[4.349456] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link4.obj\n'}
+[4.349540] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link1.obj\n'}
+[4.349617] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/collision/link3.obj\n'}
+[4.349689] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual\n'}
+[4.349762] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link_base.stl\n'}
+[4.349881] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link_base.dae\n'}
+[4.349974] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link4.stl\n'}
+[4.350711] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link3.dae\n'}
+[4.353382] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link3.stl\n'}
+[4.355344] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link2.stl\n'}
+[4.357177] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link2.dae\n'}
+[4.357963] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link5.dae\n'}
+[4.359319] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link1.dae\n'}
+[4.360741] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link4.dae\n'}
+[4.365628] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link5.stl\n'}
+[4.366467] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5_1305/visual/link1.stl\n'}
+[4.367591] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305\n'}
+[4.367928] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision\n'}
+[4.368357] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link5.obj\n'}
+[4.368570] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link2.obj\n'}
+[4.369430] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link_base.obj\n'}
+[4.369685] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link4.obj\n'}
+[4.370668] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link1.obj\n'}
+[4.370892] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link3.obj\n'}
+[4.371634] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link7.obj\n'}
+[4.372162] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/collision/link6.obj\n'}
+[4.372625] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual\n'}
+[4.373141] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link_base.stl\n'}
+[4.373356] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link_base.dae\n'}
+[4.374438] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link4.stl\n'}
+[4.374821] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link3.dae\n'}
+[4.376313] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link6.stl\n'}
+[4.377624] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link7.dae\n'}
+[4.380100] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link3.stl\n'}
+[4.380589] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link6.dae\n'}
+[4.384748] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link2.stl\n'}
+[4.385872] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link2.dae\n'}
+[4.387724] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link5.dae\n'}
+[4.389731] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link1.dae\n'}
+[4.392085] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link7.stl\n'}
+[4.393355] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link4.dae\n'}
+[4.395513] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link5.stl\n'}
+[4.396360] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_1305/visual/link1.stl\n'}
+[4.397479] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper\n'}
+[4.397771] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm\n'}
+[4.397888] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/collision\n'}
+[4.398257] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/collision/vacuum_gripper.stl\n'}
+[4.398892] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/visual\n'}
+[4.399113] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/visual/vacuum_gripper.stl\n'}
+[4.399200] (-) TimerEvent: {}
+[4.401729] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/visual/vacuum_gripper.dae\n'}
+[4.407909] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite\n'}
+[4.408635] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/collision\n'}
+[4.412113] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/collision/vacuum_gripper_lite.stl\n'}
+[4.412318] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/visual\n'}
+[4.412450] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/visual/vacuum_gripper_lite.stl\n'}
+[4.412535] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/visual/vacuum_gripper_lite.dae\n'}
+[4.412739] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7\n'}
+[4.413715] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual\n'}
+[4.413849] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link_base.stl\n'}
+[4.414038] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link4.stl\n'}
+[4.414216] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link6.stl\n'}
+[4.415428] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link3.stl\n'}
+[4.416300] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link2.stl\n'}
+[4.417613] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link7.stl\n'}
+[4.417791] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link5.stl\n'}
+[4.418457] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link1.stl\n'}
+[4.419327] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305\n'}
+[4.419588] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision\n'}
+[4.420401] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link5.obj\n'}
+[4.420867] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link2.obj\n'}
+[4.421259] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link_base.obj\n'}
+[4.421390] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link4.obj\n'}
+[4.421484] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link1.obj\n'}
+[4.422401] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link3.obj\n'}
+[4.422931] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/collision/link6.obj\n'}
+[4.423380] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual\n'}
+[4.423666] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link_base.stl\n'}
+[4.424334] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link_base.dae\n'}
+[4.424502] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link4.stl\n'}
+[4.424938] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link3.dae\n'}
+[4.426073] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link6.stl\n'}
+[4.427189] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link3.stl\n'}
+[4.428077] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link6.dae\n'}
+[4.430450] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link2.stl\n'}
+[4.431429] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link2.dae\n'}
+[4.432180] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link5.dae\n'}
+[4.434327] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link1.dae\n'}
+[4.437575] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link4.dae\n'}
+[4.438375] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link5.stl\n'}
+[4.439654] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6_1305/visual/link1.stl\n'}
+[4.440459] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror\n'}
+[4.441043] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision\n'}
+[4.441236] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link_base.stl\n'}
+[4.442251] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link4.stl\n'}
+[4.442451] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link6.stl\n'}
+[4.442985] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link3.stl\n'}
+[4.443190] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link2.stl\n'}
+[4.443534] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link7.stl\n'}
+[4.445423] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link5.stl\n'}
+[4.446365] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link1.stl\n'}
+[4.446884] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual\n'}
+[4.447419] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link_base.stl\n'}
+[4.450257] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link4.stl\n'}
+[4.450685] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link6.stl\n'}
+[4.452381] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link3.stl\n'}
+[4.453508] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link2.stl\n'}
+[4.454310] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link7.stl\n'}
+[4.454768] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link5.stl\n'}
+[4.455135] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link1.stl\n'}
+[4.455619] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850\n'}
+[4.455761] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/collision\n'}
+[4.456495] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/collision/link_base.stl\n'}
+[4.457308] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/collision/link4.stl\n'}
+[4.457722] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/collision/link6.stl\n'}
+[4.458042] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/collision/link3.stl\n'}
+[4.458482] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/collision/link2.stl\n'}
+[4.459538] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/collision/link5.stl\n'}
+[4.460174] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/collision/link1.stl\n'}
+[4.461798] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual\n'}
+[4.462356] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link_base.stl\n'}
+[4.464136] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link_base.dae\n'}
+[4.500946] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link4.stl\n'}
+[4.501412] (-) TimerEvent: {}
+[4.504334] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link3.dae\n'}
+[4.505738] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link6.stl\n'}
+[4.508556] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link3.stl\n'}
+[4.509972] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link6.dae\n'}
+[4.515330] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link2.stl\n'}
+[4.515617] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link2.dae\n'}
+[4.516271] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link5.dae\n'}
+[4.517354] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link1.dae\n'}
+[4.518619] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link4.dae\n'}
+[4.520176] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link5.stl\n'}
+[4.520755] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/uf850/visual/link1.stl\n'}
+[4.521444] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/camera\n'}
+[4.521892] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense\n'}
+[4.522113] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense/collision\n'}
+[4.522568] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense/collision/d435_with_cam_stand.stl\n'}
+[4.523384] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense/visual\n'}
+[4.524107] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense/visual/d435_with_cam_stand.stl\n'}
+[4.531243] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6\n'}
+[4.531487] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual\n'}
+[4.532089] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link_base.stl\n'}
+[4.532236] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link4.stl\n'}
+[4.533150] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link6.stl\n'}
+[4.535406] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link3.stl\n'}
+[4.535724] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link_base_white.dae\n'}
+[4.539207] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link2.stl\n'}
+[4.543041] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link5.stl\n'}
+[4.544355] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link1.stl\n'}
+[4.545632] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5\n'}
+[4.546282] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5/visual\n'}
+[4.546673] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link_base.stl\n'}
+[4.547085] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link4.stl\n'}
+[4.549048] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link3.stl\n'}
+[4.550572] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link_base_white.dae\n'}
+[4.554379] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link2.stl\n'}
+[4.555317] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link5.stl\n'}
+[4.555901] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link1.stl\n'}
+[4.556402] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6\n'}
+[4.556627] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/collision\n'}
+[4.556950] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/collision/link_base.stl\n'}
+[4.557052] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/collision/link4.stl\n'}
+[4.557798] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/collision/link6.stl\n'}
+[4.558606] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/collision/link3.stl\n'}
+[4.559567] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/collision/link2.stl\n'}
+[4.559711] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/collision/link5.stl\n'}
+[4.561519] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/collision/link1.stl\n'}
+[4.562288] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual\n'}
+[4.563048] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link_base.stl\n'}
+[4.563789] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link_base.dae\n'}
+[4.565095] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link4.stl\n'}
+[4.567530] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link3.dae\n'}
+[4.569606] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link6.stl\n'}
+[4.570324] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link3.stl\n'}
+[4.571650] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link6.dae\n'}
+[4.572938] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link2.stl\n'}
+[4.574595] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link2.dae\n'}
+[4.575378] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link5.dae\n'}
+[4.576642] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link1.dae\n'}
+[4.577828] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link4.dae\n'}
+[4.579901] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link5.stl\n'}
+[4.582297] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/lite6/visual/link1.stl\n'}
+[4.583314] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper\n'}
+[4.583863] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm\n'}
+[4.584534] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_outer_knuckle.stl\n'}
+[4.584677] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_outer_knuckle_g2.dae\n'}
+[4.584976] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_inner_knuckle.dae\n'}
+[4.588925] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/base_link_g2.dae\n'}
+[4.601879] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_finger_g2.dae\n'}
+[4.602092] (-) TimerEvent: {}
+[4.602328] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_inner_knuckle.stl\n'}
+[4.602912] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_outer_knuckle.dae\n'}
+[4.604352] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_finger.stl\n'}
+[4.604517] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/base_link.dae\n'}
+[4.622826] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_inner_knuckle_g2.dae\n'}
+[4.625528] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_finger.dae\n'}
+[4.631467] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/base_link.stl\n'}
+[4.638027] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_outer_knuckle_g2.dae\n'}
+[4.638248] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_finger_g2.dae\n'}
+[4.639504] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_inner_knuckle_g2.dae\n'}
+[4.645214] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_finger.dae\n'}
+[4.646958] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_inner_knuckle.stl\n'}
+[4.648495] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_inner_knuckle.dae\n'}
+[4.657980] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_finger.stl\n'}
+[4.661278] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_outer_knuckle.dae\n'}
+[4.662262] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_outer_knuckle.stl\n'}
+[4.663778] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/bio\n'}
+[4.664258] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/bio/link_base.stl\n'}
+[4.665446] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/bio/link_base.dae\n'}
+[4.666822] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/bio/right_finger_g2.dae\n'}
+[4.667920] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/bio/right_finger.stl\n'}
+[4.668572] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/bio/left_finger.dae\n'}
+[4.669993] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/bio/left_finger_g2.dae\n'}
+[4.670492] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/bio/right_finger.dae\n'}
+[4.673435] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/bio/left_finger.stl\n'}
+[4.674704] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/bio/link_base_g2.dae\n'}
+[4.677825] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite\n'}
+[4.678820] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/collision\n'}
+[4.680544] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/collision/gripper_lite.stl\n'}
+[4.681618] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/visual\n'}
+[4.682294] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/visual/finger2.stl\n'}
+[4.682627] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/visual/finger1.stl\n'}
+[4.683282] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/visual/shell.stl\n'}
+[4.684700] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/visual/finger2.dae\n'}
+[4.685482] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/visual/shell.dae\n'}
+[4.687562] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/visual/gripper_lite.stl\n'}
+[4.691259] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/visual/finger1.dae\n'}
+[4.692319] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//launch\n'}
+[4.692599] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//launch/_rviz_display.launch.py\n'}
+[4.693644] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//launch/xarm7_rviz_display.launch.py\n'}
+[4.693857] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//launch/xarm6_rviz_display.launch.py\n'}
+[4.694061] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//launch/_robot_description.launch.py\n'}
+[4.694955] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//launch/xarm5_rviz_display.launch.py\n'}
+[4.696931] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//launch/xarm7_mirror_rviz_display.launch.py\n'}
+[4.697708] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//launch/_robot_joint_state.launch.py\n'}
+[4.698429] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//launch/_robot_rviz_display.launch.py\n'}
+[4.699231] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//launch/lite6_rviz_display.launch.py\n'}
+[4.699830] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//launch/uf850_rviz_display.launch.py\n'}
+[4.701134] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//launch/lib\n'}
+[4.702088] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description//launch/lib/robot_description_lib.py\n'}
+[4.703111] (-) TimerEvent: {}
+[4.703305] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/ament_index/resource_index/package_run_dependencies/xarm_description\n'}
+[4.703523] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/ament_index/resource_index/parent_prefix_path/xarm_description\n'}
+[4.703695] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description/environment/ament_prefix_path.sh\n'}
+[4.704558] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description/environment/ament_prefix_path.dsv\n'}
+[4.704720] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description/environment/path.sh\n'}
+[4.705133] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description/environment/path.dsv\n'}
+[4.705564] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description/local_setup.bash\n'}
+[4.706429] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description/local_setup.fish\n'}
+[4.706653] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description/local_setup.sh\n'}
+[4.706956] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description/local_setup.zsh\n'}
+[4.707845] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description/local_setup.dsv\n'}
+[4.708534] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description/package.dsv\n'}
+[4.708882] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/ament_index/resource_index/packages/xarm_description\n'}
+[4.709045] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description/cmake/xarm_descriptionConfig.cmake\n'}
+[4.709208] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description/cmake/xarm_descriptionConfig-version.cmake\n'}
+[4.709339] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/vboxuser/xarm_ws/install/xarm_description/share/xarm_description/package.xml\n'}
+[4.716944] (xarm_description) CommandEnded: {'returncode': 0}
+[4.806339] (-) TimerEvent: {}
+[4.814374] (xarm_description) JobEnded: {'identifier': 'xarm_description', 'rc': 0}
+[4.818529] (-) EventReactorShutdown: {}

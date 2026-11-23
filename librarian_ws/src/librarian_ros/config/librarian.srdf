@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="librarian_robot">
+  <group name="arm">
+    <chain base_link="link_base" tip_link="link_tcp" />
+  </group>
+  <group name="gripper">
+    <joint name="drive_joint" />
+  </group>
+  <group_state name="home" group="arm">
+    <joint name="joint1" value="0.0" />
+    <joint name="joint2" value="0.0" />
+    <joint name="joint3" value="0.0" />
+    <joint name="joint4" value="0.0" />
+    <joint name="joint5" value="0.0" />
+    <joint name="joint6" value="0.0" />
+    <joint name="joint7" value="0.0" />
+  </group_state>
+  <group_state name="ready" group="arm">
+    <joint name="joint1" value="0.0" />
+    <joint name="joint2" value="0.2" />
+    <joint name="joint3" value="0.0" />
+    <joint name="joint4" value="0.6" />
+    <joint name="joint5" value="0.0" />
+    <joint name="joint6" value="0.8" />
+    <joint name="joint7" value="0.0" />
+  </group_state>
+  <group_state name="open" group="gripper">
+    <joint name="drive_joint" value="0.0" />
+  </group_state>
+  <group_state name="closed" group="gripper">
+    <joint name="drive_joint" value="0.85" />
+  </group_state>
+  <end_effector name="gripper" parent_link="link_eef" group="gripper" parent_group="arm" />
+  <disable_collisions link1="arm_mount" link2="base_footprint" reason="Adjacent" />
+  <disable_collisions link1="arm_mount" link2="base_footprint" reason="Never" />
+  <disable_collisions link1="arm_mount" link2="base_link" reason="Adjacent" />
+  <disable_collisions link1="arm_mount" link2="base_link" reason="Never" />
+  <disable_collisions link1="arm_mount" link2="ext_camera_link" reason="Never" />
+  <disable_collisions link1="arm_mount" link2="ext_camera_optical" reason="Never" />
+  <disable_collisions link1="arm_mount" link2="fl_wheel" reason="Adjacent" />
+  <disable_collisions link1="arm_mount" link2="fl_wheel" reason="Never" />
+  <disable_collisions link1="arm_mount" link2="fr_wheel" reason="Adjacent" />
+  <disable_collisions link1="arm_mount" link2="fr_wheel" reason="Never" />
+  <disable_collisions link1="arm_mount" link2="link1" reason="Adjacent" />
+  <disable_collisions link1="arm_mount" link2="link_base" reason="Adjacent" />
+  <disable_collisions link1="arm_mount" link2="link_base" reason="Never" />
+  <disable_collisions link1="arm_mount" link2="mast" reason="Adjacent" />
+  <disable_collisions link1="arm_mount" link2="mast" reason="Never" />
+  <disable_collisions link1="arm_mount" link2="rl_wheel" reason="Adjacent" />
+  <disable_collisions link1="arm_mount" link2="rl_wheel" reason="Never" />
+  <disable_collisions link1="arm_mount" link2="rr_wheel" reason="Adjacent" />
+  <disable_collisions link1="arm_mount" link2="rr_wheel" reason="Never" />
+  <disable_collisions link1="arm_mount" link2="world" reason="Never" />
+  <disable_collisions link1="base_footprint" link2="base_link" reason="Adjacent" />
+  <disable_collisions link1="base_footprint" link2="base_link" reason="Never" />
+  <disable_collisions link1="base_footprint" link2="ext_camera_link" reason="Never" />
+  <disable_collisions link1="base_footprint" link2="ext_camera_optical" reason="Never" />
+  <disable_collisions link1="base_footprint" link2="fl_wheel" reason="Adjacent" />
+  <disable_collisions link1="base_footprint" link2="fl_wheel" reason="Never" />
+  <disable_collisions link1="base_footprint" link2="fr_wheel" reason="Adjacent" />
+  <disable_collisions link1="base_footprint" link2="fr_wheel" reason="Never" />
+  <disable_collisions link1="base_footprint" link2="link_base" reason="Never" />
+  <disable_collisions link1="base_footprint" link2="mast" reason="Adjacent" />
+  <disable_collisions link1="base_footprint" link2="mast" reason="Never" />
+  <disable_collisions link1="base_footprint" link2="rl_wheel" reason="Adjacent" />
+  <disable_collisions link1="base_footprint" link2="rl_wheel" reason="Never" />
+  <disable_collisions link1="base_footprint" link2="rr_wheel" reason="Adjacent" />
+  <disable_collisions link1="base_footprint" link2="rr_wheel" reason="Never" />
+  <disable_collisions link1="base_footprint" link2="world" reason="Adjacent" />
+  <disable_collisions link1="base_footprint" link2="world" reason="Never" />
+  <disable_collisions link1="base_link" link2="ext_camera_link" reason="Adjacent" />
+  <disable_collisions link1="base_link" link2="ext_camera_link" reason="Never" />
+  <disable_collisions link1="base_link" link2="ext_camera_optical" reason="Never" />
+  <disable_collisions link1="base_link" link2="fl_wheel" reason="Adjacent" />
+  <disable_collisions link1="base_link" link2="fl_wheel" reason="Never" />
+  <disable_collisions link1="base_link" link2="fr_wheel" reason="Adjacent" />
+  <disable_collisions link1="base_link" link2="fr_wheel" reason="Never" />
+  <disable_collisions link1="base_link" link2="link_base" reason="Adjacent" />
+  <disable_collisions link1="base_link" link2="link_base" reason="Never" />
+  <disable_collisions link1="base_link" link2="mast" reason="Adjacent" />
+  <disable_collisions link1="base_link" link2="mast" reason="Never" />
+  <disable_collisions link1="base_link" link2="rl_wheel" reason="Adjacent" />
+  <disable_collisions link1="base_link" link2="rl_wheel" reason="Never" />
+  <disable_collisions link1="base_link" link2="rr_wheel" reason="Adjacent" />
+  <disable_collisions link1="base_link" link2="rr_wheel" reason="Never" />
+  <disable_collisions link1="base_link" link2="world" reason="Adjacent" />
+  <disable_collisions link1="base_link" link2="world" reason="Never" />
+  <disable_collisions link1="ext_camera_link" link2="ext_camera_optical" reason="Adjacent" />
+  <disable_collisions link1="ext_camera_link" link2="ext_camera_optical" reason="Never" />
+  <disable_collisions link1="ext_camera_link" link2="fl_wheel" reason="Never" />
+  <disable_collisions link1="ext_camera_link" link2="fr_wheel" reason="Never" />
+  <disable_collisions link1="ext_camera_link" link2="link_base" reason="Never" />
+  <disable_collisions link1="ext_camera_link" link2="mast" reason="Adjacent" />
+  <disable_collisions link1="ext_camera_link" link2="mast" reason="Never" />
+  <disable_collisions link1="ext_camera_link" link2="rl_wheel" reason="Never" />
+  <disable_collisions link1="ext_camera_link" link2="rr_wheel" reason="Never" />
+  <disable_collisions link1="ext_camera_link" link2="world" reason="Never" />
+  <disable_collisions link1="ext_camera_optical" link2="fl_wheel" reason="Never" />
+  <disable_collisions link1="ext_camera_optical" link2="fr_wheel" reason="Never" />
+  <disable_collisions link1="ext_camera_optical" link2="link_base" reason="Never" />
+  <disable_collisions link1="ext_camera_optical" link2="mast" reason="Adjacent" />
+  <disable_collisions link1="ext_camera_optical" link2="mast" reason="Never" />
+  <disable_collisions link1="ext_camera_optical" link2="rl_wheel" reason="Never" />
+  <disable_collisions link1="ext_camera_optical" link2="rr_wheel" reason="Never" />
+  <disable_collisions link1="ext_camera_optical" link2="world" reason="Never" />
+  <disable_collisions link1="fl_wheel" link2="fr_wheel" reason="Adjacent" />
+  <disable_collisions link1="fl_wheel" link2="fr_wheel" reason="Never" />
+  <disable_collisions link1="fl_wheel" link2="link_base" reason="Never" />
+  <disable_collisions link1="fl_wheel" link2="mast" reason="Adjacent" />
+  <disable_collisions link1="fl_wheel" link2="mast" reason="Never" />
+  <disable_collisions link1="fl_wheel" link2="rl_wheel" reason="Adjacent" />
+  <disable_collisions link1="fl_wheel" link2="rl_wheel" reason="Never" />
+  <disable_collisions link1="fl_wheel" link2="rr_wheel" reason="Adjacent" />
+  <disable_collisions link1="fl_wheel" link2="rr_wheel" reason="Never" />
+  <disable_collisions link1="fl_wheel" link2="world" reason="Never" />
+  <disable_collisions link1="fr_wheel" link2="link_base" reason="Never" />
+  <disable_collisions link1="fr_wheel" link2="mast" reason="Adjacent" />
+  <disable_collisions link1="fr_wheel" link2="mast" reason="Never" />
+  <disable_collisions link1="fr_wheel" link2="rl_wheel" reason="Adjacent" />
+  <disable_collisions link1="fr_wheel" link2="rl_wheel" reason="Never" />
+  <disable_collisions link1="fr_wheel" link2="rr_wheel" reason="Adjacent" />
+  <disable_collisions link1="fr_wheel" link2="rr_wheel" reason="Never" />
+  <disable_collisions link1="fr_wheel" link2="world" reason="Never" />
+  <disable_collisions link1="left_finger" link2="left_inner_knuckle" reason="Never" />
+  <disable_collisions link1="left_finger" link2="left_outer_knuckle" reason="Adjacent" />
+  <disable_collisions link1="left_finger" link2="left_outer_knuckle" reason="Never" />
+  <disable_collisions link1="left_finger" link2="link5" reason="Never" />
+  <disable_collisions link1="left_finger" link2="link6" reason="Never" />
+  <disable_collisions link1="left_finger" link2="link7" reason="Never" />
+  <disable_collisions link1="left_finger" link2="link_eef" reason="Never" />
+  <disable_collisions link1="left_finger" link2="link_tcp" reason="Never" />
+  <disable_collisions link1="left_finger" link2="right_finger" reason="Never" />
+  <disable_collisions link1="left_finger" link2="right_inner_knuckle" reason="Never" />
+  <disable_collisions link1="left_finger" link2="right_outer_knuckle" reason="Never" />
+  <disable_collisions link1="left_finger" link2="wrist_camera_link" reason="Never" />
+  <disable_collisions link1="left_finger" link2="wrist_camera_optical" reason="Never" />
+  <disable_collisions link1="left_finger" link2="xarm_gripper_base_link" reason="Adjacent" />
+  <disable_collisions link1="left_finger" link2="xarm_gripper_base_link" reason="Never" />
+  <disable_collisions link1="left_inner_knuckle" link2="left_outer_knuckle" reason="Adjacent" />
+  <disable_collisions link1="left_inner_knuckle" link2="left_outer_knuckle" reason="Never" />
+  <disable_collisions link1="left_inner_knuckle" link2="link5" reason="Never" />
+  <disable_collisions link1="left_inner_knuckle" link2="link6" reason="Never" />
+  <disable_collisions link1="left_inner_knuckle" link2="link7" reason="Never" />
+  <disable_collisions link1="left_inner_knuckle" link2="link_eef" reason="Adjacent" />
+  <disable_collisions link1="left_inner_knuckle" link2="link_eef" reason="Never" />
+  <disable_collisions link1="left_inner_knuckle" link2="link_tcp" reason="Adjacent" />
+  <disable_collisions link1="left_inner_knuckle" link2="link_tcp" reason="Never" />
+  <disable_collisions link1="left_inner_knuckle" link2="right_finger" reason="Never" />
+  <disable_collisions link1="left_inner_knuckle" link2="right_inner_knuckle" reason="Adjacent" />
+  <disable_collisions link1="left_inner_knuckle" link2="right_inner_knuckle" reason="Never" />
+  <disable_collisions link1="left_inner_knuckle" link2="right_outer_knuckle" reason="Adjacent" />
+  <disable_collisions link1="left_inner_knuckle" link2="right_outer_knuckle" reason="Never" />
+  <disable_collisions link1="left_inner_knuckle" link2="wrist_camera_link" reason="Never" />
+  <disable_collisions link1="left_inner_knuckle" link2="wrist_camera_optical" reason="Never" />
+  <disable_collisions link1="left_inner_knuckle" link2="xarm_gripper_base_link" reason="Adjacent" />
+  <disable_collisions link1="left_inner_knuckle" link2="xarm_gripper_base_link" reason="Never" />
+  <disable_collisions link1="left_outer_knuckle" link2="link5" reason="Never" />
+  <disable_collisions link1="left_outer_knuckle" link2="link6" reason="Never" />
+  <disable_collisions link1="left_outer_knuckle" link2="link7" reason="Never" />
+  <disable_collisions link1="left_outer_knuckle" link2="link_eef" reason="Adjacent" />
+  <disable_collisions link1="left_outer_knuckle" link2="link_eef" reason="Never" />
+  <disable_collisions link1="left_outer_knuckle" link2="link_tcp" reason="Adjacent" />
+  <disable_collisions link1="left_outer_knuckle" link2="link_tcp" reason="Never" />
+  <disable_collisions link1="left_outer_knuckle" link2="right_finger" reason="Never" />
+  <disable_collisions link1="left_outer_knuckle" link2="right_inner_knuckle" reason="Adjacent" />
+  <disable_collisions link1="left_outer_knuckle" link2="right_inner_knuckle" reason="Never" />
+  <disable_collisions link1="left_outer_knuckle" link2="right_outer_knuckle" reason="Adjacent" />
+  <disable_collisions link1="left_outer_knuckle" link2="right_outer_knuckle" reason="Never" />
+  <disable_collisions link1="left_outer_knuckle" link2="wrist_camera_link" reason="Never" />
+  <disable_collisions link1="left_outer_knuckle" link2="wrist_camera_optical" reason="Never" />
+  <disable_collisions link1="left_outer_knuckle" link2="xarm_gripper_base_link" reason="Adjacent" />
+  <disable_collisions link1="left_outer_knuckle" link2="xarm_gripper_base_link" reason="Never" />
+  <disable_collisions link1="link1" link2="link2" reason="Adjacent" />
+  <disable_collisions link1="link1" link2="link3" reason="Adjacent" />
+  <disable_collisions link1="link1" link2="link_base" reason="Adjacent" />
+  <disable_collisions link1="link2" link2="link3" reason="Adjacent" />
+  <disable_collisions link1="link2" link2="link4" reason="Adjacent" />
+  <disable_collisions link1="link2" link2="link_base" reason="Adjacent" />
+  <disable_collisions link1="link3" link2="link4" reason="Adjacent" />
+  <disable_collisions link1="link3" link2="link5" reason="Adjacent" />
+  <disable_collisions link1="link4" link2="link5" reason="Adjacent" />
+  <disable_collisions link1="link4" link2="link6" reason="Adjacent" />
+  <disable_collisions link1="link5" link2="link6" reason="Adjacent" />
+  <disable_collisions link1="link5" link2="link6" reason="Never" />
+  <disable_collisions link1="link5" link2="link7" reason="Adjacent" />
+  <disable_collisions link1="link5" link2="link7" reason="Never" />
+  <disable_collisions link1="link5" link2="link_eef" reason="Never" />
+  <disable_collisions link1="link5" link2="link_tcp" reason="Never" />
+  <disable_collisions link1="link5" link2="right_finger" reason="Never" />
+  <disable_collisions link1="link5" link2="right_inner_knuckle" reason="Never" />
+  <disable_collisions link1="link5" link2="right_outer_knuckle" reason="Never" />
+  <disable_collisions link1="link5" link2="wrist_camera_link" reason="Never" />
+  <disable_collisions link1="link5" link2="wrist_camera_optical" reason="Never" />
+  <disable_collisions link1="link5" link2="xarm_gripper_base_link" reason="Never" />
+  <disable_collisions link1="link6" link2="link7" reason="Adjacent" />
+  <disable_collisions link1="link6" link2="link7" reason="Never" />
+  <disable_collisions link1="link6" link2="link_eef" reason="Adjacent" />
+  <disable_collisions link1="link6" link2="link_eef" reason="Never" />
+  <disable_collisions link1="link6" link2="link_tcp" reason="Never" />
+  <disable_collisions link1="link6" link2="right_finger" reason="Never" />
+  <disable_collisions link1="link6" link2="right_inner_knuckle" reason="Never" />
+  <disable_collisions link1="link6" link2="right_outer_knuckle" reason="Never" />
+  <disable_collisions link1="link6" link2="wrist_camera_link" reason="Never" />
+  <disable_collisions link1="link6" link2="wrist_camera_optical" reason="Never" />
+  <disable_collisions link1="link6" link2="xarm_gripper_base_link" reason="Never" />
+  <disable_collisions link1="link7" link2="link_eef" reason="Adjacent" />
+  <disable_collisions link1="link7" link2="link_eef" reason="Never" />
+  <disable_collisions link1="link7" link2="link_tcp" reason="Never" />
+  <disable_collisions link1="link7" link2="right_finger" reason="Never" />
+  <disable_collisions link1="link7" link2="right_inner_knuckle" reason="Never" />
+  <disable_collisions link1="link7" link2="right_outer_knuckle" reason="Never" />
+  <disable_collisions link1="link7" link2="wrist_camera_link" reason="Adjacent" />
+  <disable_collisions link1="link7" link2="wrist_camera_link" reason="Never" />
+  <disable_collisions link1="link7" link2="wrist_camera_optical" reason="Never" />
+  <disable_collisions link1="link7" link2="xarm_gripper_base_link" reason="Adjacent" />
+  <disable_collisions link1="link7" link2="xarm_gripper_base_link" reason="Never" />
+  <disable_collisions link1="link_base" link2="mast" reason="Never" />
+  <disable_collisions link1="link_base" link2="rl_wheel" reason="Never" />
+  <disable_collisions link1="link_base" link2="rr_wheel" reason="Never" />
+  <disable_collisions link1="link_base" link2="world" reason="Never" />
+  <disable_collisions link1="link_eef" link2="link_tcp" reason="Adjacent" />
+  <disable_collisions link1="link_eef" link2="link_tcp" reason="Never" />
+  <disable_collisions link1="link_eef" link2="right_finger" reason="Never" />
+  <disable_collisions link1="link_eef" link2="right_inner_knuckle" reason="Adjacent" />
+  <disable_collisions link1="link_eef" link2="right_inner_knuckle" reason="Never" />
+  <disable_collisions link1="link_eef" link2="right_outer_knuckle" reason="Adjacent" />
+  <disable_collisions link1="link_eef" link2="right_outer_knuckle" reason="Never" />
+  <disable_collisions link1="link_eef" link2="wrist_camera_link" reason="Adjacent" />
+  <disable_collisions link1="link_eef" link2="wrist_camera_link" reason="Never" />
+  <disable_collisions link1="link_eef" link2="wrist_camera_optical" reason="Adjacent" />
+  <disable_collisions link1="link_eef" link2="wrist_camera_optical" reason="Never" />
+  <disable_collisions link1="link_eef" link2="xarm_gripper_base_link" reason="Adjacent" />
+  <disable_collisions link1="link_eef" link2="xarm_gripper_base_link" reason="Never" />
+  <disable_collisions link1="link_tcp" link2="right_finger" reason="Never" />
+  <disable_collisions link1="link_tcp" link2="right_inner_knuckle" reason="Adjacent" />
+  <disable_collisions link1="link_tcp" link2="right_inner_knuckle" reason="Never" />
+  <disable_collisions link1="link_tcp" link2="right_outer_knuckle" reason="Adjacent" />
+  <disable_collisions link1="link_tcp" link2="right_outer_knuckle" reason="Never" />
+  <disable_collisions link1="link_tcp" link2="wrist_camera_link" reason="Never" />
+  <disable_collisions link1="link_tcp" link2="wrist_camera_optical" reason="Never" />
+  <disable_collisions link1="link_tcp" link2="xarm_gripper_base_link" reason="Adjacent" />
+  <disable_collisions link1="link_tcp" link2="xarm_gripper_base_link" reason="Never" />
+  <disable_collisions link1="mast" link2="rl_wheel" reason="Adjacent" />
+  <disable_collisions link1="mast" link2="rl_wheel" reason="Never" />
+  <disable_collisions link1="mast" link2="rr_wheel" reason="Adjacent" />
+  <disable_collisions link1="mast" link2="rr_wheel" reason="Never" />
+  <disable_collisions link1="mast" link2="world" reason="Never" />
+  <disable_collisions link1="right_finger" link2="right_inner_knuckle" reason="Never" />
+  <disable_collisions link1="right_finger" link2="right_outer_knuckle" reason="Adjacent" />
+  <disable_collisions link1="right_finger" link2="right_outer_knuckle" reason="Never" />
+  <disable_collisions link1="right_finger" link2="wrist_camera_link" reason="Never" />
+  <disable_collisions link1="right_finger" link2="wrist_camera_optical" reason="Never" />
+  <disable_collisions link1="right_finger" link2="xarm_gripper_base_link" reason="Adjacent" />
+  <disable_collisions link1="right_finger" link2="xarm_gripper_base_link" reason="Never" />
+  <disable_collisions link1="right_inner_knuckle" link2="right_outer_knuckle" reason="Adjacent" />
+  <disable_collisions link1="right_inner_knuckle" link2="right_outer_knuckle" reason="Never" />
+  <disable_collisions link1="right_inner_knuckle" link2="wrist_camera_link" reason="Never" />
+  <disable_collisions link1="right_inner_knuckle" link2="wrist_camera_optical" reason="Never" />
+  <disable_collisions link1="right_inner_knuckle" link2="xarm_gripper_base_link" reason="Adjacent" />
+  <disable_collisions link1="right_inner_knuckle" link2="xarm_gripper_base_link" reason="Never" />
+  <disable_collisions link1="right_outer_knuckle" link2="wrist_camera_link" reason="Never" />
+  <disable_collisions link1="right_outer_knuckle" link2="wrist_camera_optical" reason="Never" />
+  <disable_collisions link1="right_outer_knuckle" link2="xarm_gripper_base_link" reason="Adjacent" />
+  <disable_collisions link1="right_outer_knuckle" link2="xarm_gripper_base_link" reason="Never" />
+  <disable_collisions link1="rl_wheel" link2="rr_wheel" reason="Adjacent" />
+  <disable_collisions link1="rl_wheel" link2="rr_wheel" reason="Never" />
+  <disable_collisions link1="rl_wheel" link2="world" reason="Never" />
+  <disable_collisions link1="rr_wheel" link2="world" reason="Never" />
+  <disable_collisions link1="wrist_camera_link" link2="wrist_camera_optical" reason="Adjacent" />
+  <disable_collisions link1="wrist_camera_link" link2="wrist_camera_optical" reason="Never" />
+  <disable_collisions link1="wrist_camera_link" link2="xarm_gripper_base_link" reason="Adjacent" />
+  <disable_collisions link1="wrist_camera_link" link2="xarm_gripper_base_link" reason="Never" />
+  <disable_collisions link1="wrist_camera_optical" link2="xarm_gripper_base_link" reason="Never" />
+</robot>
