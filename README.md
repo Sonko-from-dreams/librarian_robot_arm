@@ -8,11 +8,13 @@ colcon build --symlink-install --packages-select librarian_ros
 
 source install/setup.bash  
 
+--------------------------------------------------------------
 
 ros2 launch librarian_ros sim.launch.py book_pose:=flat
 
 ros2 launch librarian_ros moveit.launch.py
 
+--------------------------------------------------------------
 
 Перевірка
 
@@ -26,6 +28,6 @@ ros2 run librarian_ros arm_cli gripper open
 
 ros2 run librarian_ros arm_cli pose 0.45 0.0 0.50    # TCP згори над столом
 
-
+--------------------------------------------------------------
 
 ros2 launch librarian_ros pick.launch.py
